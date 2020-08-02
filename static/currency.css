@@ -1,0 +1,21 @@
+body{
+   background-color: midnightBlue;
+}
+h1{
+   color: white;
+   font-size: 30;
+   font-style: strong;
+}
+.currency{
+    color:yellow;
+    font-size: 20
+}
+.quantity{
+    color:yellow;
+    font-size: 20
+}
+.result{
+    color:yellow;
+    font-size: 25
+    font-style: strong;
+}

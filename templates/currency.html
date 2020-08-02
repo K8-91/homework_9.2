@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='currency.css') }}"
+</head>
+<body>
+    <h1>Here you can calculate currency</h1>
+    <form>
+    <label class = "currency" for = "currency">Enter currency:</label>
+    <select name = "currency" id = "currency">
+        <option value = "USD">USD</option>
+        <option value = "AUD">AUD</option>
+        <option value = "CAD">CAD</option>
+        <option value = "EUR">EUR</option>
+        <option value = "HUF">HUF</option>
+        <option value = "CHF">CHF</option>
+        <option value = "GBP">GBP</option>
+    </select>
+    <p>
+        <label class ="quantity" for = "quantity">Enter quantity:</label>
+    </p>
+        <textarea name = "quantity" id = "quantity" rows= "1">
+        </textarea>
+        <input type= "submit"/>
+     <p>
+        <label class = "result" for = "result">Result is:</label>
+        <output name = "result" id = "result"> ............</output>
+    </p>
+    </form>
+</body>
+</html>
