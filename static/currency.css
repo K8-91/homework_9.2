@@ -19,3 +19,8 @@ h1{
     font-size: 25
     font-style: strong;
 }
+.output{
+    color:yellow;
+    font-size: 35
+    font-style: strong;
+}

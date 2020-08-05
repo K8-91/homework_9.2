@@ -6,7 +6,7 @@
 </head>
 <body>
     <h1>Here you can calculate currency</h1>
-    <form>
+    <form action="/currency" method="POST">
     <label class = "currency" for = "currency">Enter currency:</label>
     <select name = "currency" id = "currency">
         <option value = "USD">USD</option>
@@ -25,7 +25,8 @@
         <input type= "submit"/>
      <p>
         <label class = "result" for = "result">Result is:</label>
-        <output name = "result" id = "result"> ............</output>
+         <output name = "result" id = "result"></output></p>
+     <p class = "output">    {{ result }}
     </p>
     </form>
 </body>
